@@ -5,11 +5,82 @@
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Conn's Website</title>
     <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            background-color: #fea;
+            color: #a00;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        section {
+            margin: 10px auto;
+            border: 1px solid #a00;
+            border-radius: 10px;
+            background-image: linear-gradient(135deg, #fff3, #8883);
+        }
+        #intro {
+            box-sizing: border-box;
+            width: 300px;
+            height: 400px;
+            text-align: center;
+        }
+        #info {
+            box-sizing: border-box;
+            max-width: 1000px;
+            padding: 0 10px 20px 15px;
+        }
+        img {
+            max-width: 95%;
+            border-radius: 10px;
+            margin-top: -5px;
+        }
+        a {
+            display: block;
+            max-width: 30%;
+            margin: 0 auto;
+            text-align: center;
+            color: #fea;
+            text-decoration: none;
+            background-color: #a00;
+            padding: 5px;
+            border-radius: 5px;
+            transition: background-color 0.15s;
+        }
+        a:hover {
+            background-color: #f00;
+        }
+        ul {
+            line-height: 1.8;
+        }
+        h2 {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <h1>
-        Conn's Website Test
-    </h1>
-    <a href = "itis3135/">Click to go to my ITIS3135 Site</a> 
+    <section id="intro">
+        <h1>
+            Conn's Website
+        </h1>
+        <figure>
+            <img 
+                src="itis3135/images/luna.webp"
+                alt="A kitten named Luna lying on her side in the middle of a flight of stairs."
+            >
+            <figcaption>Luna's favorite spot</figcaption>
+        </figure>
+    </section>
+    <section id="info">
+        <h2>About Me</h2>
+        <p>Hi! I'm Conn, a CPCC student going for a concentration in cybersecurity.</p>
+        <p>Some of my interests are:</p>
+        <ul>
+            <li>Puzzles! That includes pen-and-paper puzzles, puzzle game shows like <i>The Genius</i>, and puzzles games (my favorite is <i>Baba is You</i>).</li>
+            <li>Detectives! That includes detective shows, detective books, and detective games (my favorite is <i>The Return of the Obra Dinn</i>).</li>
+            <li>Board and card games! Recently I've been into chess and <i>Magic: The Gathering</i>.</li>
+            <li><i>Pokémon</i>! My favorite is Ampharos, who inspired this page's color scheme.</li>
+            <li>Whatever my friends try to rope me into! Currently reading: <i>Homestuck</i>.</li>
+        </ul>
+        <a href = "itis3135/">My ITIS3135 Site</a> 
+    </section>
 </body>
 </html>
