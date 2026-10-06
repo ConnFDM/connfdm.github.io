@@ -79,3 +79,7 @@ img {
     width: 40%;
     margin-bottom: 15px;
 }
+
+ul, ol {
+    line-height: 1.3;
+}
