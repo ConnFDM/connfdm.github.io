@@ -2,14 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Conn's Home Page</title>
-    <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conn Henesy | Home</title>
+    <link rel="icon" type="image/x-icon" href="/itis3135/images/favicon.ico">
     <style>
         body {
+            margin: 0 auto;
+            max-width: 1000px;
             background-color: #fea;
             color: #a00;
             font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        @media screen {
+            body {
+                max-width: 1100px;
+            }
         }
         section {
             margin: 10px auto;
@@ -20,12 +27,11 @@
         #intro {
             box-sizing: border-box;
             width: 300px;
-            height: 390px;
+            height: 400px;
             text-align: center;
         }
         #info {
             box-sizing: border-box;
-            max-width: 1000px;
             padding: 0 10px 20px 15px;
         }
         img {
@@ -51,27 +57,38 @@
         ul {
             line-height: 1.8;
         }
-        h2 {
+        h1, h2 {
             text-align: center;
-        }
-        h1 {
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             font-size: 1.9rem;
+            margin: 20px;
+        }
+        footer {
+            text-align: center;
+            font-size: 0.8rem;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         }
     </style>
+    <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <section id="intro">
-        <h1>
-            Conn's Home Page
-        </h1>
-        <figure>
-            <img 
-                src="itis3135/images/luna.webp"
-                alt="A kitten named Luna lying on her side in the middle of a flight of stairs."
-            >
-            <figcaption>Luna's favorite spot</figcaption>
-        </figure>
-    </section>
+    <header>
+        <h1>Conn Henesy</h1>
+    </header>
+    <main>
+        <!-- Intro ID holds the introduction box for the site. -->
+        <section id="intro">
+            <h2>Home</h2>
+            <figure>
+                <img 
+                    src="itis3135/images/luna.webp"
+                    alt="A kitten named Luna lying on her side in the middle of a flight of stairs."
+                >
+                <figcaption>Luna's favorite spot</figcaption>
+            </figure>
+        </section>
+    </main>
+    <!-- Info ID holds the information below the intro box in another box. -->
     <section id="info">
         <h2>About Me</h2>
         <p>Hi! I'm Conn, a CPCC student going for a concentration in cybersecurity.</p>
@@ -83,7 +100,10 @@
             <li><i>Pokémon</i>! My favorite is Ampharos, who inspired this page's color scheme.</li>
             <li>Whatever my friends try to rope me into! Currently reading: <i>Homestuck</i>.</li>
         </ul>
-        <a href = "itis3135/">My ITIS3135 Site</a> 
+        <a href = "itis3135/" target="_blank">My ITIS3135 Site</a>
     </section>
+    <footer>
+        <p><i>Property of Conspicuous Herideans</i></p>
+    </footer>
 </body>
 </html>
