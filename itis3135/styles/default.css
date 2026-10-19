@@ -83,3 +83,7 @@ img {
 ul, ol {
     line-height: 1.3;
 }
+
+nav {
+    text-align: center;
+}
