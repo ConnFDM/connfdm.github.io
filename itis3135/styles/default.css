@@ -1,9 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #41393e;
     color: #cbefb6;
     margin: auto;
     max-width: 2000px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 a {
@@ -21,6 +25,17 @@ header {
     border-bottom: 10px double #2c5530;
     padding-bottom: 20px;
     width: 80%;
+}
+
+header section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    width: 2.5rem;
+    margin: 10px 20px;
 }
 
 main {
@@ -77,6 +92,7 @@ img {
     display: block;
     margin: auto;
     width: 40%;
+    max-width: 400px;
     margin-bottom: 15px;
 }
 
@@ -86,4 +102,17 @@ ul, ol {
 
 nav {
     text-align: center;
+}
+
+nav:first-of-type {
+    margin: 2px auto 8px auto;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    padding: 8px;
+}
+
+@media screen and (max-width: 760px) {
+    header, main, footer {
+        width: 90%;
+    }
 }
