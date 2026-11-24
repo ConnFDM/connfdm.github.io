@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conn Henesy's Conspicuous Heridean | ITIS3135 | Images</title>
+    <link rel="stylesheet" href="styles/default.css">
+    <link rel="icon" type="image/x-icon" href="images/itis-favicon.ico">
+    <style>
+        img {
+            width: auto;
+            max-width: 999%;
+        }
+
+        article {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+        }
+
+        h4, p {
+            grid-column: 1 / 3;
+        }
+    </style>
+    <script src="scripts/include_components.js"></script>
+    <script src="https://divonbriesen.github.io/teaching/tools/standards-check.js" defer></script>
+    <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <h2>Images</h2>
+        <p>An exploration of image sizes and how images are manipulated on websites</p>
+        <section>
+            <h3>Manipulating an Image of Ocean Waves</h3>
+            <p>A fierce wave with several small details to examine. Image taken by Oktay Köseoğlu, a wedding photographer from Istanbul. 6000x4000, 5.2MB</p>
+            <article>
+                <h4>Original Image</h4>
+                <p><a href="images/dynamic-ocean-waves-in-motion-34487106@oktay-koseoglu_pexels.jpg" target="_blank">Original .JPG</a></p>
+                <p><a href="images/dynamic-ocean-waves-in-motion-34487106@oktay-koseoglu_pexels.jpg" target="_blank">Original as .GIF</a></p>
+                <p><a href="images/dynamic-ocean-waves-in-motion-34487106@oktay-koseoglu_pexels-grayscale.jpg" target="_blank">Grayscale</a></p>
+                <p><a href="images/dynamic-ocean-waves-in-motion-34487106@oktay-koseoglu_pexels-bw.jpg" target="_blank">Black & White</a></p>
+            </article>
+            <article>
+                <h4>Downsizing Images with CSS</h4>
+                <figure>
+                <img src="images/dynamic-ocean-waves-in-motion-34487106@oktay-koseoglu_pexels.jpg" style="
+                    width: 600px;
+                    height: 400px;
+                " alt="A photograph of a strong wave, showcasing multiple swirling ripples.">
+                <figcaption>The original 6000x4000 image, downsized to fit in this site.</figcaption>
+                </figure>
+            </article>
+            <article>
+                <h4>Proper Reduction of Image with Editor</h4>
+                <figure>
+                <img src="images/dynamic-ocean-waves-in-motion-34487106@oktay-koseoglu_pexels-600x400.jpg" alt="The original wave image, scaled down in an image editor.">
+                <figcaption>A proper downscale to the same size done in an image editor.</figcaption>
+                </figure>
+            </article>
+            <article>
+                <h4>Improper Image Proportions with CSS</h4>
+                <figure>
+                <img src="images/dynamic-ocean-waves-in-motion-34487106@oktay-koseoglu_pexels-600x400.jpg" style="
+                    width: 400px;
+                    height: 400px;
+                " alt="The wave image is squished to be 33% narrower.">
+                <figcaption>33% less width than usual. The image appears squished to be more narrow.</figcaption>
+                </figure>
+                <figure>
+                <img src="images/dynamic-ocean-waves-in-motion-34487106@oktay-koseoglu_pexels-600x400.jpg" style="
+                    width: 200px;
+                    height: 400px;
+                " alt="The wave image is squished to be 66% narrower.">
+                <figure>66% less width than usual. The image is extremely squished.</figure>
+                </figure>
+                <figure>
+                <img src="images/dynamic-ocean-waves-in-motion-34487106@oktay-koseoglu_pexels-600x400.jpg" style="
+                    width: 600px;
+                    height: 266px;
+                " alt="The wave image is squished to be 33% shorter.">
+                <figcaption>33% less height than usual. The image appears squished to be shorter.</figcaption>
+                </figure>
+                <figure>
+                <img src="images/dynamic-ocean-waves-in-motion-34487106@oktay-koseoglu_pexels-600x400.jpg" style="
+                    width: 600px;
+                    height: 133px;
+                " alt="The wave image is squished to be 66% shorter.">
+                <figcaption>66% less height than usual. The image is extremely squished.</figcaption>
+                </figure>
+            </article>
+            <article>
+                <h4>Improper Enlarging with CSS</h4>
+                <figure>
+                <img src="images/dynamic-ocean-waves-in-motion-34487106@oktay-koseoglu_pexels-600x400.jpg" alt="A repeat of the wave image downscaled in an image editor.">
+                <figcaption>The original downscale for reference.</figcaption>
+                </figure>
+                <figure>
+                <img src="images/dynamic-ocean-waves-in-motion-34487106@oktay-koseoglu_pexels-150x100.jpg" style="
+                    width: 600px;
+                    height: 400px;
+                " alt="The wave image has been made 75% smaller, but is then blown up to the same size. The image appears grainy as a result.">
+                <figcaption>A 60x40 downscaling of the image, blown up to fit the same size. The image appears grainy.</figcaption>
+                </figure>
+            </article>
+        </section>
+        <hr>
+        <section>
+            <h3>Manipulating a Perfect Circle (Lantern)</h3>
+            <p>A perfectly circular flashlight, held by a visible thumb and finger for a more subjective shape. Image taken by myself. 4000x3000, 3.7MB</p>
+            <article>
+                <h4>Original Image</h4>
+                <p><a href="images/hand-holding-lantern@conn-henesy.jpg" target="_blank">Original .JPG</a></p>
+                <p><a href="images/hand-holding-lantern@conn-henesy.gif" target="_blank">Original as .GIF</a></p>
+                <p><a href="images/hand-holding-lantern@conn-henesy-grayscale.jpg" target="_blank">Grayscale</a></p>
+                <p><a href="images/hand-holding-lantern@conn-henesy-bw.jpg" target="_blank">Black & White</a></p>
+            </article>
+            <article>
+                <h4>Downsizing Images with CSS</h4>
+                <figure>
+                <img src="images/hand-holding-lantern@conn-henesy.jpg" style="
+                    width: 400px;
+                    height: 300px;
+                " alt="The bottom of a circular lantern being held over a marble surface.">
+                <figcaption>The original 4000x3000 image, downsized to fit in this site.</figcaption>
+                </figure>
+            </article>
+            <article>
+                <h4>Proper Reduction of Image with Editor</h4>
+                <figure>
+                <img src="images/hand-holding-lantern@conn-henesy-400x300.jpg"
+                    alt="The original lantern image, scaled down in an image editor.">
+                <figcaption>A proper downscale to the same size done in an image editor.</figcaption>
+                </figure>
+            </article>
+            <article>
+                <h4>Improper Image Proportions with CSS</h4>
+                <figure>
+                <img src="images/hand-holding-lantern@conn-henesy-400x300.jpg" style="
+                    width: 266px;
+                    height: 300px;
+                " alt="The lantern image is squished to be 33% narrower.">
+                <figcaption>33% less width than usual. The image appears squished to be more narrow.</figcaption>
+                </figure>
+                <figure>
+                <img src="images/hand-holding-lantern@conn-henesy-400x300.jpg" style="
+                    width: 133px;
+                    height: 300px;
+                " alt="The lantern image is squished to be 66% narrower.">
+                <figure>66% less width than usual. The image is extremely squished.</figure>
+                </figure>
+                <figure>
+                <img src="images/hand-holding-lantern@conn-henesy-400x300.jpg" style="
+                    width: 400px;
+                    height: 200px;
+                " alt="The lantern image is squished to be 33% shorter.">
+                <figcaption>33% less height than usual. The image appears squished to be shorter.</figcaption>
+                </figure>
+                <figure>
+                <img src="images/hand-holding-lantern@conn-henesy-400x300.jpg" style="
+                    width: 400px;
+                    height: 100px;
+                " alt="The lantern image is squished to be 66% shorter.">
+                <figcaption>66% less height than usual. The image is extremely squished.</figcaption>
+                </figure>
+            </article>
+            <article>
+                <h4>Improper Enlarging with CSS</h4>
+                <figure>
+                <img src="images/hand-holding-lantern@conn-henesy-400x300.jpg" alt="A repeat of the lantern image downscaled in an image editor.">
+                <figcaption>The original downscale for reference.</figcaption>
+                </figure>
+                <figure>
+                <img src="images/hand-holding-lantern@conn-henesy-100x75.jpg" style="
+                    width: 400px;
+                    height: 300px;
+                " alt="The lantern image has been made 75% smaller, but is then blown up to the same size. The image appears grainy as a result.">
+                <figcaption>A 100x75 downscaling of the image, blown up to fit the same size. The image appears grainy.</figcaption>
+                </figure>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
